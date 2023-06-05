@@ -1,0 +1,112 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.0rem 2%;
+  display: flex;
+  align-items: center;
+  color: #958080;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #6a6b6d;
+  padding: 2px 3px;
+}
+
+
+.header .header-logo{
+ 
+  margin-right: 0%;
+  margin-top: auto;
+
+}
+.header .header-logo img{
+  width: 10%;
+  height: 15%;
+  margin-right: 90%;
+  margin-top: 0%;
+}
+
+.header h1{
+  color: #fff;
+  margin-top: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 35px;
+  font-family: 'Philosopher', sans-serif;
+}
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.header .navbar a:hover{
+  color: #baa6cf;
+}
+.header .btn{
+  background: transparent;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 12px;
+  padding: 8px;
+}
+
+
+body{
+    margin: 2%;
+    background-color: #F6F7FA;
+}
+.container{
+    width: 45%;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+
+}
+td{
+    text-align: center;
+
+}
+.header-text{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.sub-text{
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+}
+
+.form-label{
+    color: rgb(44, 44, 44);
+    text-align: left;
+    font-size: 14px;
+}
+.label-td{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1{
+    font-weight: bold;
+}
+
+
+.hover-link1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}.login-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
